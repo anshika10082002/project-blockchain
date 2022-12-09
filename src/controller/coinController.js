@@ -3,7 +3,6 @@ const axios= require("axios") //fa02dfbb-1135-4e71-a981-1067a3efa9fc
 const coinModel= require("../model/coinModel")//fa02dfbb-1135-4e71-a981-1067a3efa9fc
 
 
-
 let getCryptoCoin= async function(req,res){
 try{
     let options={
